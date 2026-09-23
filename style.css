@@ -6,6 +6,8 @@ h1 {
 .content {
     color: black;
     background-color: skyblue;
+    border: 4px solid black;
+    margin-left: 5px;
 }
 
 .content h2 {
@@ -13,8 +15,15 @@ h1 {
 }
 
 .content img {
-    width: 30%;
+    width: 40%;
     height:auto;
     padding: 5px 10px;
     border: 2px dashed black;
+}
+
+.image-description {
+    text-align: left;
+    font-style: italic;
+    color: black;
+    font-size: 18px;
 }
